@@ -19,10 +19,11 @@ public class Practica2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         double res = 0;
-        String operacion;
-        boolean comprobar = false;
+        String operacion ;
+        boolean comprobar = true;
 
         do {
+            
             
             do {
                 System.out.println("Calculadora " 
@@ -43,6 +44,8 @@ public class Practica2 {
                     comprobar = false;
                 }
             } while (comprobar != true);
+            
+            
 
             String numero1;
             do {
@@ -128,6 +131,6 @@ public class Practica2 {
             } while (comprobar != true);
         } while (operacion.equals("s") || operacion.equals("S"));
   
-     
     }
 }
+
